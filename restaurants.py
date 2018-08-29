@@ -1,13 +1,13 @@
-import random
-
 restaurants = [
     'Blaze Pizza',
     'Buffalo Wild Wings',
     'Cafe Istanbul',
     'Cane Rosso',
     'Chipotle',
+    'Chuys',
     'Fadis',
     'La Hacienda',
+    'Liberty Burger',
     'Hutchins',
     'Mi Cocina',
     'Macaroni Grill',
@@ -24,5 +24,3 @@ restaurants = [
     'Wild Pitch',
     'Wingstop'
 ]
-samples = random.sample(set(restaurants), 3)
-print(samples)
